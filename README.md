@@ -1,4 +1,4 @@
-# Projeto de Governança em TI
+# Projeto de Desenvolver Aplicação Mobile
 
 - Universidade Nove de Julho - Campus Memorial América Latina
 - Diretoria dos Cursos de Informática
