@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+br/com/textofalado/textofalado/BuildConfig.java
+ br.com.textofalado.textofalado.BuildConfig
