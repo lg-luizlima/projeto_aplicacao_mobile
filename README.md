@@ -1,6 +1,9 @@
-# textofalado
+- Universidade Nove de Julho - Campus Memorial América Latina
+- Diretoria dos Cursos de Informática
+- Curso Sistemas de informação (Turma 42)
+- Disciplina Ciência de Dados
 
-A new Flutter project for spoken text
+# textofalado
 
 ## Getting Started
 
