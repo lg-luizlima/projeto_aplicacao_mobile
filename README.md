@@ -3,7 +3,7 @@
 - Universidade Nove de Julho - Campus Memorial América Latina
 - Diretoria dos Cursos de Informática
 - Curso Sistemas de informação (Turma 42)
-- Disciplina Ciência de Dados
+- Disciplina Projeto Prático De Construção De Sistemas Computacionais
 
 ## Docente
 
