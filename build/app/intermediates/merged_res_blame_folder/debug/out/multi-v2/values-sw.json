@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/luizgustavo/AndroidStudioProjects/textofalado/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
+            "outputFile": "/home/luizgustavo/Repo/projeto_aplicacao_mobile/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sw/values-sw.xml",
             "map": [
                 {
-                    "source": "/home/luizgustavo/.gradle/caches/transforms-2/files-2.1/4eaf806c3c8a543b7246d1252cae919a/core-1.9.0-alpha01/res/values-sw/values-sw.xml",
+                    "source": "/home/luizgustavo/.gradle/caches/transforms-2/files-2.1/3bf5b5e6a83e273d3b08c81ac16f1bf8/core-1.9.0-alpha03/res/values-sw/values-sw.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

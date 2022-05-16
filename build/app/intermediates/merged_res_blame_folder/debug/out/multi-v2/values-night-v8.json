@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/luizgustavo/AndroidStudioProjects/textofalado/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+            "outputFile": "/home/luizgustavo/Repo/projeto_aplicacao_mobile/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/home/luizgustavo/AndroidStudioProjects/textofalado/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/home/luizgustavo/Repo/projeto_aplicacao_mobile/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

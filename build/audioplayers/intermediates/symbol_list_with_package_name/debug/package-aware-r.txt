@@ -118,10 +118,6 @@ id icon
 id icon_group
 id info
 id italic
-id item1
-id item2
-id item3
-id item4
 id line1
 id line3
 id locale
@@ -159,8 +155,6 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
-menu example_menu
-menu example_menu2
 string status_bar_notification_info_overflow
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info

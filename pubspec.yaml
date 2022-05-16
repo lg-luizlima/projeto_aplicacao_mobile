@@ -36,6 +36,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_ibm_watson: ^0.0.4
   audioplayers: ^0.18.3
+  sqflite: ^1.1.5
+  path_provider: ^2.0.1
 
 dev_dependencies:
   flutter_test:
@@ -58,7 +60,8 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
+  assets:
+    - assets/config.json
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
