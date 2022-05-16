@@ -1,4 +1,4 @@
-#Mon May 16 12:19:54 BRT 2022
+#Mon May 16 20:19:06 BRT 2022
 base.0=/home/luizgustavo/Repo/projeto_aplicacao_mobile/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

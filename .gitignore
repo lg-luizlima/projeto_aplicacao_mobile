@@ -7,5 +7,4 @@
 .pub-cache/
 .pub/
 build/
-
-/assets/.config.json
+config.json

@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'dart:typed_data';
-import 'dart:convert';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter_ibm_watson/flutter_ibm_watson.dart';
 import 'sql_helper.dart';
+import 'dart:convert';
+import 'package:flutter/services.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,23 +36,22 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  static dynamic jsonMap;
-
-  Future<void> loadAsset(BuildContext context) async {
-    final jsonString = await DefaultAssetBundle.of(context)
-        .loadString('assets/.config.json');
-         jsonMap = jsonDecode(jsonString);
-  }
 
   AudioPlayer audioPlayer = AudioPlayer();
   String textAsSpeech = "";
-  String apiKey = jsonMap['apiKey'];
-  String ibmURL = jsonMap['ibmURL'];
-
 
   void textToSpeech(String text) async {
+
+    // load the json file
+    final contents = await rootBundle.loadString(
+      'assets/config.json',
+    );
+
+    // decode our json
+    final json = jsonDecode(contents);
+
     IamOptions options =
-    await IamOptions(iamApiKey: apiKey, url: ibmURL).build();
+    await IamOptions(iamApiKey: json['apiKey'], url: json['ibmURL']).build();
     TextToSpeech service = TextToSpeech(iamOptions: options);
     service.setVoice("pt-BR_IsabelaV3Voice");
     Uint8List voice = await service.toSpeech(text);
@@ -156,7 +156,6 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ));
   }
-
 
 
   @override
@@ -266,4 +265,5 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
+
 }
