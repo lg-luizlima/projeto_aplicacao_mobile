@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Future<void> loadAsset(BuildContext context) async {
     final jsonString = await DefaultAssetBundle.of(context)
-        .loadString('assets/config.json');
+        .loadString('assets/.config.json');
          jsonMap = jsonDecode(jsonString);
   }
 

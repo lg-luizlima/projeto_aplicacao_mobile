@@ -1,6 +1,4 @@
 ### Flutter Generated
-assets/config.json
-
 # Flutter/Dart/Pub related
 **/doc/api/
 .dart_tool/
@@ -9,3 +7,5 @@ assets/config.json
 .pub-cache/
 .pub/
 build/
+
+/assets/.config.json
