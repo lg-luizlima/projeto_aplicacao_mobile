@@ -24,5 +24,21 @@
 
 ## Objetivo
 
+Nosso propósito neste projeto foi desenvolver uma aplicação mobile que promovesse
+a inclusão de pessoas com deficiência afônica devido à incapacidade (total ou parcial) de
+produzir fala, tivemos como força inspiradora outros aplicativos de acessibilidade como
+HandTalk que traduz, automaticamente, textos e áudios em Libras, Língua Brasileira de Sinais
+(Libras) e Língua Americana de Sinais (ASL) utilizando inteligência artificial.
+Por se tratar de um projeto acadêmico, nos limitamos em pesquisar uma plataforma
+aberta de inteligência artificial (IA) para transcrever texto em áudio, esse meio foi
+fundamental para conseguir o processamento em tempo real pelo dispositivo do usuário.
+
 ## Conclusão
 
+Esse projeto foi essencial para aplicar o conhecimento adquirido neste
+semestre, o desenvolvimento em dart com flutter possibilitou uma arquitetura híbrida,
+minimizando o esforço em codificar para diversas plataforma, o consumo por
+Application Programming Interface (API) permitiu a integração e a troca de
+informações de forma mais rápida e segura com outros sistemas, por último mas não
+menos importante, podemos usar a tecnologia como forma de diminuir a desigualdade
+social e proporcional acessibilidade para sociedade.

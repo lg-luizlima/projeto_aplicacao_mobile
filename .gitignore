@@ -7,4 +7,5 @@
 .pub-cache/
 .pub/
 build/
+**build/
 config.json
