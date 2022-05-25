@@ -31,20 +31,18 @@ class SQLHelper {
     return id;
   }
 
-  // Read all items (journals)
+
   static Future<List<Map<String, dynamic>>> getItems() async {
     final db = await SQLHelper.db();
     return db.query('items', orderBy: "id");
   }
 
-  // Read a single item by id
-  // The app doesn't use this method but I put here in case you want to see it
   static Future<List<Map<String, dynamic>>> getItem(int id) async {
     final db = await SQLHelper.db();
     return db.query('items', where: "id = ?", whereArgs: [id], limit: 1);
   }
 
-  // Update an item by id
+
   static Future<int> updateItem(
       int id, String title) async {
     final db = await SQLHelper.db();
@@ -59,7 +57,6 @@ class SQLHelper {
     return result;
   }
 
-  // Delete
   static Future<void> deleteItem(int id) async {
     final db = await SQLHelper.db();
     try {
